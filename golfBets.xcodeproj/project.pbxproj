@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D39396F20C8524D00F22D5C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D39396E20C8524D00F22D5C /* CollectionViewCell.swift */; };
 		3DE53B9E201BB16C00197699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE53B9D201BB16C00197699 /* AppDelegate.swift */; };
 		3DE53BA0201BB16C00197699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE53B9F201BB16C00197699 /* ViewController.swift */; };
 		3DE53BA3201BB16C00197699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE53BA1201BB16C00197699 /* Main.storyboard */; };
 		3DE53BA5201BB16C00197699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE53BA4201BB16C00197699 /* Assets.xcassets */; };
 		3DE53BA8201BB16C00197699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE53BA6201BB16C00197699 /* LaunchScreen.storyboard */; };
+		3DE53BB0201BB48100197699 /* GameNotes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3DE53BAF201BB48100197699 /* GameNotes.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D39396E20C8524D00F22D5C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		3DE53B9A201BB16C00197699 /* golfBets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golfBets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE53B9D201BB16C00197699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DE53B9F201BB16C00197699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		3DE53BA4201BB16C00197699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE53BA7201BB16C00197699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DE53BA9201BB16C00197699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE53BAF201BB48100197699 /* GameNotes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = GameNotes.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				3DE53B9D201BB16C00197699 /* AppDelegate.swift */,
 				3DE53B9F201BB16C00197699 /* ViewController.swift */,
 				3DE53BA1201BB16C00197699 /* Main.storyboard */,
+				3D39396E20C8524D00F22D5C /* CollectionViewCell.swift */,
 				3DE53BA4201BB16C00197699 /* Assets.xcassets */,
 				3DE53BA6201BB16C00197699 /* LaunchScreen.storyboard */,
 				3DE53BA9201BB16C00197699 /* Info.plist */,
+				3DE53BAF201BB48100197699 /* GameNotes.rtf */,
 			);
 			path = golfBets;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			files = (
 				3DE53BA8201BB16C00197699 /* LaunchScreen.storyboard in Resources */,
 				3DE53BA5201BB16C00197699 /* Assets.xcassets in Resources */,
+				3DE53BB0201BB48100197699 /* GameNotes.rtf in Resources */,
 				3DE53BA3201BB16C00197699 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				3DE53BA0201BB16C00197699 /* ViewController.swift in Sources */,
 				3DE53B9E201BB16C00197699 /* AppDelegate.swift in Sources */,
+				3D39396F20C8524D00F22D5C /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
